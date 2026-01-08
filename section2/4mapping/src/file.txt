@@ -1,0 +1,2 @@
+after studying map and react cant render obj concept 
+lets complete the joke challnege removing their hard coding
