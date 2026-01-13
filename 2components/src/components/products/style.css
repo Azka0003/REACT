@@ -1,0 +1,8 @@
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* one way -css files*/
+/* 2nd way -css modules*/
+/* inline styles in case of dynamic or overwrite u can use this styles  */
