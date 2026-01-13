@@ -111,6 +111,7 @@ console.log(
 
 //default parameters, spread and rest operators
 
+//default parameters
 function mulOfTwoNumbers(num1 = 1, num2 = 2) {
   console.log(num1, num2);
   return num1 * num2;
@@ -123,7 +124,7 @@ console.log(mulOfTwoNumbers(10));
 const array2 = [2, 3, 4];
 const array3 = [10, 11, 12];
 
-console.log([...array2]);//spread kr dega  that mean 2 3 4 if u want in array then use [] aroung ...a1
+console.log([...array2]);//spread kr dega  that mean 2 3 4 if u want in array then use [] around ...array1
 console.log([...array2, ...array3]);//spread combine then in array
 console.log([...array2, 90, ...array3]);
 console.log([999, ...array2, 90, ...array3]);
@@ -131,7 +132,7 @@ console.log([999, ...array2, 90, ...array3, 10000]);
 
 //rest
 
-function getInfo(a, b, ...c) {//c return as array containing all rest ,always at end not in starting
+function getInfo(a, b, ...c) {//c return as array containing all rest elements ,always at end not in starting
   console.log(a, b, c);
 
   return "Sangam Mukherjee";
@@ -209,9 +210,8 @@ let getIndexOfPersonWhoISFromRussia = personsArray.findIndex((singlePerson) => {
 
 console.log(getIndexOfPersonWhoISFromRussia);
 
-
+//fetch data from api
 let getListOfproductsElement = document.querySelector('.list-of-products');
-
 
 function renderProducts(getProducts) {
   getListOfproductsElement.innerHTML = getProducts
@@ -235,6 +235,9 @@ async function fetchListOfProducts() {
 }
 
 fetchListOfProducts()
+
+// result?.products means: “If result exists, then get products, otherwise don’t crash.”
+// The ?. is called optional chaining — it prevents errors when something is null or undefined.
 
 // 1️⃣ API links (like /products) come from the API’s official documentation, not from guessing.
 // 2️⃣ Always open the API URL in the browser first to check what data it returns.
