@@ -137,6 +137,7 @@ import ReactHookFormExamplePage from './pages/react-hook-form-example'
 import Hooks from './pages/use-ref-example'
 import UseMemoExample from './pages/use-memo-example'
 import UseCallbackExample from './pages/use-callback-example'
+import ReactQueryDemo from './pages/react-query/index'
 
 function CustomRoutes() {
   const element = useRoutes([//array og objects
@@ -172,6 +173,10 @@ function CustomRoutes() {
     {
       path:'/use-callback-ex',
       element: <UseCallbackExample/>
+    },
+    {
+      path:'/react-query-demo',
+      element: <ReactQueryDemo/>
     }
 
   ]);
