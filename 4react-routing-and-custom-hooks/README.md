@@ -167,6 +167,34 @@ src
 
 ---
 
+## 🔄 React Query (TanStack Query) Example
+
+This update adds a **React Query (TanStack Query) demo** to demonstrate **server-state management** such as fetching, caching, and mutating data.
+
+---
+
+### 📌 Concepts Implemented
+
+- `useQuery` – Fetch & cache server data  
+- `useMutation` – Create/update server data  
+- `useQueryClient` – Manage query cache  
+- Automatic refetching  
+- Cache invalidation  
+- Server-state vs UI-state separation  
+
+---
+
+### 📥 Fetching Products (`useQuery`)
+
+**🧠 Why React Query?**
+
+- Compared to useEffect + useState, React Query provides:
+- Built-in caching
+- Automatic refetching
+- Cleaner async logic
+- Better scalability
+- Production-ready server-state handling
+
 ## 🚀 How to Run
 
 ```bash
