@@ -46,8 +46,10 @@ I initially started learning React from **freeCodeCamp**, which provides strong 
 - Custom hooks
 - React Hook Form
 - TanStack (React Query)
-- State management with Redux Toolkit & Zustand
+
+  ### 🔹 Currently Learning / Upcoming
 - Firebase Authentication
+- State management with Redux Toolkit & Zustand
 - Unit testing with Jest & React Testing Library
 
 ---
