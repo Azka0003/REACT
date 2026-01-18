@@ -50,6 +50,22 @@ src/
 
 ---
 
+## 🌐 Routes
+
+**/products → Product List**
+**/product-details/:id → Product Details**
+**/cart → Cart Page**
+
+---
+
+## 📌 Notes
+
+- Tailwind CSS v4 is used
+- No tailwind.config.js required
+- Styling is done using Tailwind utility classes
+- DummyJSON API is used for mock product data
+
+
 ## ⚙️ Installation & Setup
 ```bash
 npm install
