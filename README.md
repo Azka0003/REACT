@@ -83,4 +83,4 @@ Each project is organized in its own folder for clarity.
 
 ---
 
-> This repository reflects **consistent practice and real implementation**, not just theory.
+> This repository reflects **consistent practice and real implementation**.
