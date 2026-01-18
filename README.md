@@ -47,7 +47,7 @@ I initially started learning React from **freeCodeCamp**, which provides strong 
 - React Hook Form
 - TanStack (React Query)
 
-  ### 🔹 Currently Learning / Upcoming
+### 🔹 Currently Learning / Upcoming
 - Firebase Authentication
 - State management with Redux Toolkit & Zustand
 - Unit testing with Jest & React Testing Library
